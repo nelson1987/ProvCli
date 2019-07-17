@@ -66,3 +66,4 @@ dkms.conf
 /ProvCli.CrossCutting/bin/Debug/netcoreapp2.1/ProvCli.CrossCutting.deps.json
 /ProvCli.Domain/bin/Debug/netcoreapp2.1/ProvCli.Domain.deps.json
 /ProvCli.Api/ProvCli.Api.csproj.user
+/ProvCli.Api/bin/Debug/netcoreapp2.2
