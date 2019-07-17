@@ -58,3 +58,11 @@ dkms.conf
 /ProvCli.Application/obj
 /ProvCli.Application.Contracts/obj
 /ProvCli.CrossCutting/obj
+/ProvCli.Api/bin/Debug/netcoreapp2.1
+/ProvCli.Api.Contracts/obj
+/ProvCli.Application/bin/Debug/netcoreapp2.1/ProvCli.Application.deps.json
+/ProvCli.Application.Contracts/bin/Debug/netcoreapp2.1/ProvCli.Application.Contracts.deps.json
+/ProvCli.CrossCutting/bin/Debug/netcoreapp2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml
+/ProvCli.CrossCutting/bin/Debug/netcoreapp2.1/ProvCli.CrossCutting.deps.json
+/ProvCli.Domain/bin/Debug/netcoreapp2.1/ProvCli.Domain.deps.json
+/ProvCli.Api/ProvCli.Api.csproj.user

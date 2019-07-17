@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_CrossCutting", "0_CrossCu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvCli.CrossCutting", "ProvCli.CrossCutting\ProvCli.CrossCutting.csproj", "{18178B2C-091B-458F-99C2-14FDEC3D2415}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvCli.Api.Contracts", "ProvCli.Api.Contracts\ProvCli.Api.Contracts.csproj", "{99CB3D7B-1FA1-4A19-B428-7C64DE0B8325}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{18178B2C-091B-458F-99C2-14FDEC3D2415}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18178B2C-091B-458F-99C2-14FDEC3D2415}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18178B2C-091B-458F-99C2-14FDEC3D2415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99CB3D7B-1FA1-4A19-B428-7C64DE0B8325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99CB3D7B-1FA1-4A19-B428-7C64DE0B8325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99CB3D7B-1FA1-4A19-B428-7C64DE0B8325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99CB3D7B-1FA1-4A19-B428-7C64DE0B8325}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +70,7 @@ Global
 		{46F0AEA9-8FD5-4AA1-8439-4679A87DD82C} = {F4D36CC4-5E13-44E6-8512-D1B6C3C79CC5}
 		{A3109C8C-DADC-4E88-9266-D140F66C9FA6} = {C8BCEF18-17DD-4B3F-A12C-013C7AA1EE6A}
 		{18178B2C-091B-458F-99C2-14FDEC3D2415} = {BD157852-A0F3-4AD3-8354-F4E005BE5CEB}
+		{99CB3D7B-1FA1-4A19-B428-7C64DE0B8325} = {C8BCEF18-17DD-4B3F-A12C-013C7AA1EE6A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {54B89FC2-E033-4415-8B0A-506648E8CE1D}
