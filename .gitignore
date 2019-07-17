@@ -54,3 +54,7 @@ dkms.conf
 /ProvCli.Domain/obj
 /ProvCli.Domain.Tests/bin/Debug/netcoreapp2.1
 /ProvCli.Domain.Tests/obj
+/ProvCli.Api/obj
+/ProvCli.Application/obj
+/ProvCli.Application.Contracts/obj
+/ProvCli.CrossCutting/obj
