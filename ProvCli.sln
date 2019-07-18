@@ -13,17 +13,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_Application", "2_Applicat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProvCli.Application", "ProvCli.Application\ProvCli.Application.csproj", "{A60511E3-9658-45BC-908D-ABB222598E30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvCli.Application.Contracts", "ProvCli.Application.Contracts\ProvCli.Application.Contracts.csproj", "{46F0AEA9-8FD5-4AA1-8439-4679A87DD82C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProvCli.Application.Contracts", "ProvCli.Application.Contracts\ProvCli.Application.Contracts.csproj", "{46F0AEA9-8FD5-4AA1-8439-4679A87DD82C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5_Presentation", "5_Presentation", "{C8BCEF18-17DD-4B3F-A12C-013C7AA1EE6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvCli.Api", "ProvCli.Api\ProvCli.Api.csproj", "{A3109C8C-DADC-4E88-9266-D140F66C9FA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProvCli.Api", "ProvCli.Api\ProvCli.Api.csproj", "{A3109C8C-DADC-4E88-9266-D140F66C9FA6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_CrossCutting", "0_CrossCutting", "{BD157852-A0F3-4AD3-8354-F4E005BE5CEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvCli.CrossCutting", "ProvCli.CrossCutting\ProvCli.CrossCutting.csproj", "{18178B2C-091B-458F-99C2-14FDEC3D2415}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProvCli.CrossCutting", "ProvCli.CrossCutting\ProvCli.CrossCutting.csproj", "{18178B2C-091B-458F-99C2-14FDEC3D2415}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvCli.Api.Contracts", "ProvCli.Api.Contracts\ProvCli.Api.Contracts.csproj", "{99CB3D7B-1FA1-4A19-B428-7C64DE0B8325}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProvCli.Api.Contracts", "ProvCli.Api.Contracts\ProvCli.Api.Contracts.csproj", "{99CB3D7B-1FA1-4A19-B428-7C64DE0B8325}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
