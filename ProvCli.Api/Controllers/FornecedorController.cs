@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProvCli.Api.Contracts.Models;
 using ProvCli.Application.Contracts.Services;
+using ProvCli.Domain.Entities;
 
 namespace ProvCli.Api.Controllers
 {
@@ -17,16 +19,20 @@ namespace ProvCli.Api.Controllers
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        public IActionResult Create([FromServices] IFornecedorAppService servico)
+        public IActionResult Create(
+            [FromBody] CriacaoFornecedorModel modelo,
+            [FromServices] IFornecedorAppService servico)
         {
             try
             {
-                
+                if (!ModelState.IsValid)
+                    return BadRequest();
+                servico.Adicionar(Mapper.Map<Fornecedor>(modelo));
                 return Ok("Criado com sucesso");
             }
             catch (Exception ex)
             {
-                return  BadRequest(ex);
+                return BadRequest(ex);
             }
         }
     }
