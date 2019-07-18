@@ -67,3 +67,4 @@ dkms.conf
 /ProvCli.Domain/bin/Debug/netcoreapp2.1/ProvCli.Domain.deps.json
 /ProvCli.Api/ProvCli.Api.csproj.user
 /ProvCli.Api/bin/Debug/netcoreapp2.2
+/ProvCli.Api.Contracts/bin/Debug/netcoreapp2.1

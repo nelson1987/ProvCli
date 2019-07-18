@@ -4,7 +4,7 @@ using ProvCli.Domain.Entities;
 
 namespace ProvCli.Api.Mappers
 {
-    public class Mapping
+    public static class Mapping
     {
         public static void ModelToEntity(IMapperConfigurationExpression cfg)
         {

@@ -9,7 +9,7 @@ namespace ProvCli.Domain.Entities
         public int Id { get; private set; }
         public string RazaoSocial { get; private set; }
         public string Email { get; private set; }
-        public string Cnpj { get; set; }
+        public string Cnpj { get; private set; }
         /*
          * CADASTRO DE FORNECEDORES Nº: __________
 
