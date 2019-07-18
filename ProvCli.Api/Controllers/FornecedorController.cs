@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProvCli.Api.Contracts.Models;
+using ProvCli.Application.Contracts.Services;
 using ProvCli.Domain.Command;
 using System;
 
@@ -12,6 +13,25 @@ namespace ProvCli.Api.Controllers
     [ApiController]
     public class FornecedorController : ControllerBase
     {
+        #region GET
+
+        [HttpGet]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        public IActionResult Create([FromServices] IFornecedorAppService servico)
+        {
+            try
+            {
+                return Ok(Mapper.Map<ListagemFornecedorModel>(servico.Listar()));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex);
+            }
+        }
+
+        #endregion
+        #region POST
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -33,5 +53,6 @@ namespace ProvCli.Api.Controllers
                 return BadRequest(ex);
             }
         }
+        #endregion
     }
 }
